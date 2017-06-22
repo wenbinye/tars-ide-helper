@@ -1,12 +1,12 @@
-phptaf-ide-helper
+tars-ide-helper
 ====================
 
-phptaf在IDE下自动识别类、函数，自动补全函数名
+tars在IDE下自动识别类、函数，自动补全函数名
 
 ## 使用方式
 ### composer 安装：
 
-    composer require --dev "copyrenzhe/phptaf-ide-helper:dev-master"
+    composer require --dev "copyrenzhe/tars-ide-helper:dev-master"
 
 
 ### 普通IDE：

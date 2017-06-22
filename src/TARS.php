@@ -1,8 +1,7 @@
 <?php
 
-namespace Taf;
-
-class TJCE {
+class TARS
+{
     const BOOL = 1;
     const CHAR = 2;
     const UINT8 = 3;

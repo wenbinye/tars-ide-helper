@@ -1,7 +1,7 @@
 {
-    "name": "copyrenzhe/phptaf-ide-helper",
-    "description": "Phptaf IDE Helper, generates classes and functions, to improve auto-completion",
-    "keywords": ["phptaf", "taf", "ide", "helper", "phpstorm", "jce"],
+    "name": "copyrenzhe/tars-ide-helper",
+    "description": "tars IDE Helper, generates classes and functions, to improve auto-completion",
+    "keywords": ["phptars", "tars", "ide", "helper", "phpstorm", "jce"],
     "require": {
         "php": ">=5.5.30"
     },

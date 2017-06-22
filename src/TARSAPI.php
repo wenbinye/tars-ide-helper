@@ -1,8 +1,7 @@
 <?php
 
-namespace Taf;
-
-class PHPTAF {
+class TARSAPI
+{
 
     /**
      * @param Int $iVersion
@@ -17,20 +16,36 @@ class PHPTAF {
      * @param array $inbuf_arr
      * @return string
      */
-    public static function encode_v2($iVersion, $iRequestId, $servantName, $funcName, $cPacketType, $iMessageType, $iTimeout, $contexts, $statuses, $inbuf_arr) {}
+    public static function encode(
+        $iVersion,
+        $iRequestId,
+        $servantName,
+        $funcName,
+        $cPacketType,
+        $iMessageType,
+        $iTimeout,
+        $contexts,
+        $statuses,
+        $inbuf_arr
+    ) {
+    }
 
     /**
      * @param String $respBuffer
      * @return array
      */
-    public static function decode_v2($respBuffer) {}
+    public static function decode($respBuffer)
+    {
+    }
 
     /**
      * @param  string $name
      * @param  $clazz [expect object]
      * @return string
      */
-    public static function putStruct_v2($name, $clazz) {}
+    public static function putStruct($name, $clazz)
+    {
+    }
 
     /**
      * @param string $name
@@ -38,189 +53,243 @@ class PHPTAF {
      * @param string $buf
      * @return array
      */
-    public static function getStruct_v2($name, $clazz, $buf) {}
+    public static function getStruct($name, $clazz, $buf)
+    {
+    }
 
     /**
      * @param string $name
      * @param $value
      * @return string
      */
-    public static function putBool_v2($name, $value) {}
+    public static function putBool($name, $value)
+    {
+    }
 
     /**
      * @param $name
      * @param $buf
      * @return bool
      */
-    public static function getBool_v2($name, &$buf) {}
+    public static function getBool($name, &$buf)
+    {
+    }
 
     /**
      * @param $name
      * @param $value
      * @return string
      */
-    public static function putChar_v2($name, $value) {}
+    public static function putChar($name, $value)
+    {
+    }
 
     /**
      * @param $name
      * @param $buf
      * @return string
      */
-    public static function getChar_v2($name, &$buf) {}
+    public static function getChar($name, &$buf)
+    {
+    }
 
     /**
      * @param $name
      * @param $value
      * @return string
      */
-    public static function putUInt8_v2($name, $value) {}
-
-    /**
-     * @param $name
-     * @param $buf
-     * @return int
-     */
-    public static function getUInt8_v2($name, &$buf) {}
-
-    /**
-     * @param $name
-     * @param $value
-     * @return string
-     */
-    public static function putShort_v2($name, $value) {}
+    public static function putUInt8($name, $value)
+    {
+    }
 
     /**
      * @param $name
      * @param $buf
      * @return int
      */
-    public static function getShort_v2($name, &$buf) {}
+    public static function getUInt8($name, &$buf)
+    {
+    }
 
     /**
      * @param $name
      * @param $value
      * @return string
      */
-    public static function putUInt16_v2($name, $value) {}
+    public static function putShort($name, $value)
+    {
+    }
 
     /**
      * @param $name
      * @param $buf
      * @return int
      */
-    public static function getUInt16_v2($name, &$buf) {}
+    public static function getShort($name, &$buf)
+    {
+    }
 
     /**
      * @param $name
      * @param $value
      * @return string
      */
-    public static function putInt32_v2($name, $value) {}
+    public static function putUInt16($name, $value)
+    {
+    }
 
     /**
      * @param $name
      * @param $buf
      * @return int
      */
-    public static function getInt32_v2($name, &$buf) {}
+    public static function getUInt16($name, &$buf)
+    {
+    }
 
     /**
      * @param $name
      * @param $value
      * @return string
      */
-    public static function putUInt32_v2($name, $value) {}
+    public static function putInt32($name, $value)
+    {
+    }
 
     /**
      * @param $name
      * @param $buf
      * @return int
      */
-    public static function getUInt32_v2($name, &$buf) {}
+    public static function getInt32($name, &$buf)
+    {
+    }
 
     /**
      * @param $name
      * @param $value
      * @return string
      */
-    public static function putInt64_v2($name, $value) {}
+    public static function putUInt32($name, $value)
+    {
+    }
 
     /**
      * @param $name
      * @param $buf
      * @return int
      */
-    public static function getInt64_v2($name, &$buf) {}
+    public static function getUInt32($name, &$buf)
+    {
+    }
 
     /**
      * @param $name
      * @param $value
      * @return string
      */
-    public static function putDouble_v2($name, $value) {}
+    public static function putInt64($name, $value)
+    {
+    }
+
+    /**
+     * @param $name
+     * @param $buf
+     * @return int
+     */
+    public static function getInt64($name, &$buf)
+    {
+    }
+
+    /**
+     * @param $name
+     * @param $value
+     * @return string
+     */
+    public static function putDouble($name, $value)
+    {
+    }
 
     /**
      * @param $name
      * @param $buf
      * @return double
      */
-    public static function getDouble_v2($name, &$buf) {}
+    public static function getDouble($name, &$buf)
+    {
+    }
 
     /**
      * @param $name
      * @param $value
      * @return mixed
      */
-    public static function putFloat_v2($name, $value) {}
+    public static function putFloat($name, $value)
+    {
+    }
 
     /**
      * @param $name
      * @param $buf
      * @return double
      */
-    public static function getFloat_v2($name, &$buf) {}
+    public static function getFloat($name, &$buf)
+    {
+    }
 
     /**
      * @param $name
      * @param $value
      * @return mixed
      */
-    public static function putString_v2($name, $value) {}
+    public static function putString($name, $value)
+    {
+    }
 
     /**
      * @param $name
      * @param $buf
      * @return string
      */
-    public static function getString_v2($name, &$buf) {}
+    public static function getString($name, &$buf)
+    {
+    }
 
     /**
      * @param $name
-     * @param \Taf\TJCE_Vector $clazz
+     * @param TARS_Vector $clazz
      * @return string
      */
-    public static function putVector_v2($name, TJCE_Vector $clazz) {}
+    public static function putVector($name, TARS_Vector $clazz)
+    {
+    }
 
     /**
      * @param $name
-     * @param \Taf\TJCE_Vector $clazz
+     * @param TARS_Vector $clazz
      * @param $buf
      * @return mixed
      */
-    public static function getVector_v2($name, TJCE_Vector $clazz, &$buf) {}
+    public static function getVector($name, TARS_Vector $clazz, &$buf)
+    {
+    }
 
     /**
      * @param $name
-     * @param \Taf\TJCE_Map $clazz
+     * @param TARS_Map $clazz
      * @return string
      */
-    public static function putMap_v2($name, TJCE_Map $clazz) {}
+    public static function putMap($name, TARS_Map $clazz)
+    {
+    }
 
     /**
      * @param $name
-     * @param \Taf\TJCE_Map $clazz
+     * @param TARS_Map $clazz
      * @param $buf
      * @return array
      */
-    public static function getMap_v2($name, TJCE_Map $clazz, &$buf) {}
+    public static function getMap($name, TARS_Map $clazz, &$buf)
+    {
+    }
 }
