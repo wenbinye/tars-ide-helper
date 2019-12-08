@@ -1,5 +1,5 @@
 {
-    "name": "copyrenzhe/tars-ide-helper",
+    "name": "wenbinye/tars-ide-helper",
     "description": "tars IDE Helper, generates classes and functions, to improve auto-completion",
     "keywords": ["phptars", "tars", "ide", "helper", "phpstorm", "jce"],
     "require": {

@@ -2,15 +2,9 @@
 
 class TARS_Struct
 {
+    protected $__origType = \TARS::STRUCT;
 
-    private static $__origType = TARS::STRUCT;
-
-    /**
-     * TARS_Struct constructor.
-     * @param string $fclazz
-     * @param array $sclazz
-     */
-    public function __construct($fclazz, $sclazz)
+    public function __construct($start_zero, $class_name, array $fields = null)
     {
     }
 }
