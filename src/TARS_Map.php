@@ -2,28 +2,19 @@
 
 class TARS_Map
 {
+    private $__origType = \TARS::MAP;
 
-    private static $__origType = TARS::MAP;
-
-    private $__format = 0;
+    private $__format = false;
 
     public function __construct($fclazz, $sclazz)
     {
     }
 
-    /**
-     * @param array $value
-     * @return array
-     */
-    public function pushBack($value)
+    public function pushBack(array $value)
     {
     }
 
-    /**
-     * @param array $value
-     * @return array
-     */
-    public function push_back($value)
+    public function push_back(array $value)
     {
     }
 }
